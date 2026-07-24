@@ -1,7 +1,7 @@
-# inTelligram
+# PrysmTelegram
 
 ## Overview
-**inTelligram** is a Python tool inspired by @sockysec [Telerecon](https://github.com/sockysec/Telerecon/tree/main) and designed for scraping Telegram channels to extract content and uploaded files. It facilitates data analysis for intelligence and investigative purposes. 
+**PrysmTelegram** is a Python tool inspired by @sockysec [Telerecon](https://github.com/sockysec/Telerecon/tree/main) and designed for scraping Telegram channels to extract content and uploaded files. It facilitates data analysis for intelligence and investigative purposes. 
 
 ## Features
 - **Content Extraction**: Scrapes messages and files from specified Telegram channels.
@@ -17,8 +17,8 @@
 #### Installation
 
   ```bash
-git clone https://github.com/m1kr0ch1p/inTelligram.git
-cd inTelligram
+git clone https://github.com/m1kr0ch1p/PrysmTelegram.git
+cd PrysmTelegram
 python -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
@@ -47,10 +47,10 @@ You can verify Spacy languages models available here: https://spacy.io/usage/mod
    ```
 
 ## Usage Instructions
-To run inTelligram, follow these steps:
+To run PrysmTelegram, follow these steps:
 
 1. Open your command line interface (CLI).
-2. Navigate to the directory where inTelligram is located.
+2. Navigate to the directory where PrysmTelegram is located.
 3. Execute the main script:
    ```bash
    $ python start.py
