@@ -59,7 +59,7 @@ To run PrysmTelegram, follow these steps:
    ```bash
    $ python launch.py
    ```
-   
+
 ### Outputs
 
 - Subdirectory containing downloaded files for metadata investigations and a markdown file with some metadata founded.
