@@ -53,7 +53,7 @@ To run PrysmTelegram, follow these steps:
 2. Navigate to the directory where PrysmTelegram is located.
 3. Execute the main script:
    ```bash
-   $ python start.py
+   $ python launch.py
    ```
 ### Outputs
 
