@@ -33,13 +33,16 @@ python3 -m spacy download zh_core_web_sm
 You can verify Spacy languages models available here: https://spacy.io/usage/models
 
 ### Configuration Files
+
 1. **channels.txt**: Create this file to list the URLs of the Telegram channels you want to scrape. Each URL should be on a new line.
+   
    ```
    https://t.me/channel1
    https://t.me/channel2
    ```
 
 2. **details.py**: This file should include your Telegram API credentials:
+   
    ```python
    API_ID = 'your_api_id'
    API_HASH = 'your_api_hash'
@@ -52,9 +55,11 @@ To run PrysmTelegram, follow these steps:
 1. Open your command line interface (CLI).
 2. Navigate to the directory where PrysmTelegram is located.
 3. Execute the main script:
+   
    ```bash
    $ python launch.py
    ```
+   
 ### Outputs
 
 - Subdirectory containing downloaded files for metadata investigations and a markdown file with some metadata founded.
